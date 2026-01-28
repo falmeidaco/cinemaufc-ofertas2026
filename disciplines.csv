@@ -1,0 +1,51 @@
+SEMESTRE,TIPO,CURSO,PERÍODO,ID,NOME,TURMA,HORÁRIO,EMENTA
+1,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1310,OFICINA DE FOTOGRAFIA E ILUMINAÇÃO I,Turma 01,SEG 08:00-12:00,
+1,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1310,OFICINA DE FOTOGRAFIA E ILUMINAÇÃO I,Turma 02,SEG 13:30-17:30,
+1,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA0148,TEORIAS E ESTÉTICAS CLÁSSICAS DO CINEMA E AUDIOVISUAL I,,TER 08:00-12:00,
+1,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1311,OFICINA DE REALIZAÇÃO EM CINEMA E AUDIOVISUAL,,QUA 08:00-12:00,
+1,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1302,TEORIAS E ESTÉTICAS DA ARTE,,QUI 13:30-17:30,
+1,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1305,OFICINA DE ROTEIRO,,SEX 08:00-12:00,
+2,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1312,OFICINA DE EDIÇÃO E MONTAGEM,Turma 01,SEG 08:00-12:00,
+2,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1312,OFICINA DE EDIÇÃO E MONTAGEM,Turma 02,SEX 08:00-12:00,
+3,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA0150,TEORIAS E ESTÉTICAS MODERNAS DO CINEMA E AUDIOVISUAL I,,QUA 08:00-12:00,
+3,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1308,TEORIAS E ESTÉTICAS CONTEMPORANEAS DO CINEMA E AUDIOVISUAL II,,QUI 08:00-12:00,
+3,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA0496,"METODOLOGIA DE PESQUISA EM ARTE, FILOSOFIA E CIÊNCIAS",Turma 03A,TER 08:00-12:00,
+3,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA0496,"METODOLOGIA DE PESQUISA EM ARTE, FILOSOFIA E CIÊNCIAS",Turma 02A,TER 13:30-17:30,
+3,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA0496,"METODOLOGIA DE PESQUISA EM ARTE, FILOSOFIA E CIÊNCIAS",Turma 04A,QUI 13:30-17:30,
+5,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1314,ATELIE DE REALIZAÇÃO EM CINEMA E AUDIOVISUAL I,Turma 01A,TER 08:00-12:00 / QUI 08:00-12:00,
+5,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1314,ATELIE DE REALIZAÇÃO EM CINEMA E AUDIOVISUAL I,Turma 02A,TER 08:00-12:00 / QUI 08:00-12:00,
+7,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA1317,PESQUISA E ELABORAÇÃO DE PROJETOS EM CINEMA E AUDIOVISUAL,,QUA 08:00-12:00,
+7,OBRIGATÓRIA,CINEMA,(02/03/2026 - 07/07/2026),ICA0152,PESQUISA E ELABORAÇÃO DE PROJETOS EM CINEMA E AUDIOVISUAL  (TCC I),,QUA 08:00-12:00,
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA3278,ESTÉTICAS SONORAS IV,,SEG 08:00-12:00,"Ementa: Propostas estéticas: o uso criativo do som em sincronia e assincronia com a imagem. As propriedades discursivas e dramáticas do som. Análise da criação sonora em obras cinematográficas e audiovisuais, narrativas e não narrativas."
+,OPTATIVA,CINEMA,(02/03/2026 - 07/05/2026 - 1º BIMESTRE),ICA1326,CRIAÇÃO DE EFEITOS SONOROS,,SEG 13:30-17:30,"Ementa: Fundamentos de produção de efeitos sonoros para cinema e audiovisual. Análise dos efeitos sonoros no cinema e audiovisual. Plataformas de captação, edição e mixagem de efeitos sonoros. Produção de efeitos sonoros."
+,OPTATIVA,CINEMA,(08/05/2026 - 07/07/2026 - 2º BIMESTRE),ICA0163,A VOZ NO AUDIOVISUAL II,,SEG 13:30-17:30,Ementa: O estudo da voz numa perspectiva inter e transdisciplinar nos Sound Studies. A voz e suas relações de poder. Voz e alteridade. Voz e criação artística.
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA0155,"MONTAGEM, TEORIAS E ESTÉTICAS",,TER 13:30-17:30,"Ementa: Aspectos históricos, políticos, estéticos e metodológicos da montagem. A montagem como instrumento de pensamento. A montagem como coleta, seleção, classificação e arranjos de dados. A montagem como composição."
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA0810,FOTOGRAFIA E ILUMINAÇÃO II,,TER 13:30-17:30,"Ementa: O uso dos equipamentos de filmagem e iluminação. Estilos de iluminação, photography e câmera. Enquadramento: definição do espaço. Cinema e vídeo: diferenças e semelhanças. A câmera de cinema e a câmera de vídeo, propriedades físico-químicos do material sensível, propriedades físicas da fita magnética e da eletrônica do sinal de vídeo."
+,OPTATIVA,CINEMA,(02/03/2026 - 07/05/2026 - 1º BIMESTRE),ICA3273,PRODUÇÃO EXECUTIVA,,TER 13:30-17:30 / QUI 13:30-17:30,"Ementa: O papel da Produção Executiva e sua relação com a Produtora. A equipe de Produção Executiva. O Controller e a Direção de Produção. A Assessoria Jurídica. As atividades de Produção Executiva: definição do cronograma, orçamento de trabalho, Contratos, Autorizações, planilhas de trabalho. Elaboração de desenhos de produção e execução orçamentária."
+,OPTATIVA,CINEMA,(08/05/2026 - 07/07/2026 - 2º BIMESTRE),ICA0170,OFICINA DE CRÍTICA CINEMATOGRÁFICA,,TER 08:00-12:00 / QUI 08:00-12:00,Ementa: O papel da crítica cinematográfica. Panorama dos diferentes métodos de análise de filmes. Debate e análise de críticas de cinema escritas por diversos autores. Exercícios de escritura de críticas de cinema.
+,OPTATIVA,CINEMA,(08/05/2026 - 07/07/2026 - 2º BIMESTRE),ICA0169,LABORATÓRIO DE REALIZAÇÃO EM FORMATOS MÍNIMOS,,TER 13:30-17:30 / QUI 13:30-17:30,"Ementa: Concepção, desenvolvimento e realização de obras audiovisuais em formatos mínimos, com equipamentos portáteis, de realização individual, a exemplo de videodiários, videocartas, filmes-de-arquivo, filmes-ensaios e obras afins."
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA0165,CURADORIA EM CINEMA E AUDIOVISUAL,,QUA 13:30-17:30,"Ementa: O papel da curadoria. O caráter multidisciplinar da curadoria e suas interseções com a pesquisa acadêmica, a crítica e a docência. O papel do cineclubismo. Contextualização de mostras e festivais de cinema e audiovisual no Brasil e no mundo. Concepção, planejamento e execução de uma mostra ou festival de cinema."
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA0162,A VOZ NO AUDIOVISUAL I,,QUA 13:30-17:30,"Ementa: Propriedades sonoras narrativas e dramáticas do uso da voz no cinema e audiovisual. A voz como recurso sensorial e gerador de sentidos, por meio de combinações perceptivas do som quanto a dinâmica de variação de intensidade, altura, timbre, melodia, ritmo, da sua musicalidade em relação à imagem."
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA0168,LABORATÓRIO DE EFEITOS VISUAIS,,QUI 08:00-12:00,Ementa: Montagem e edição audiovisual em modo avançado. O uso criativo dos efeitos visuais e sonoros. História e técnica. Os efeitos visuais (entre analógicos e digitais). Os efeitos sonoros em comunhão à imagem. O design em movimento (motion graphics). Composição imagética (mise-en-cadre).
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA1324,OFICINA DE DIREÇÃO DE ATORES PARA CINEMA E AUDIOVISUAL,,QUI 08:00-12:00,Ementa: Preparação de atores para cinema. Relações entre ator-direção; ator-câmera; atorroteiro. Ator e criação: Ação física; Partitura de criação; Impulso; Estímulo e partitura; Ação-respiração; Corpo e intensidade; Fluidez e espontaneidade; Atuação e presença; Corporeidade e naturalismo. Os laboratórios de criação no cinema e suas relações de colaboração e cocriação.
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA1330,VIDEOARTE,,QUI 13:30-17:30,"Ementa: Panorama da videoarte, no Brasil e em outros países. A videoarte e os movimentos artísticos minimalismo, a arte pop, a arte conceitual, as instalações, performances e happenings. Videoinstalação, videoperformance, videoescultura, videopoema, videotexto. As artes plásticas e a produção da videoarte. A videoarte e o cinema contemporâneo. A produção teórica, a crítica e os textos curatoriais como espaço de construction de um pensamento sobre o cinema como arte."
+,OPTATIVA,CINEMA,(02/03/2026 - 07/07/2026),ICA0500,TÓPICOS ESPECIAIS EM TEORIA DO CINEMA E AUDIOVISUAL I,,SEX 13:30-17:30,"Ementa: Cartografia da teoria do cinema e do audiovisual. As principais correntes de pensamento, as principais ideias. Estudo intensivo de um/a pensador/a: obras, pressupostos, conceitos, ideias, referências."
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0200,"MEIO AMBIENTE, CULTURA E EDUCAÇÃO",,SEG 08:00-12:00,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0200,"MEIO AMBIENTE, CULTURA E EDUCAÇÃO",,SEG 13:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0858,PROCESSO DE CRIAÇÃO: TEORIA E ANÁLISE,Turma 01A,SEG 13:30-15:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0858,PROCESSO DE CRIAÇÃO: TEORIA E ANÁLISE,Turma 02A,SEG 15:30-17:30,
+,OPTATIVA,ICA,(08/05/2026 - 07/07/2026),ICA0880,TÓPICOS ESPECIAIS EM EXISTENCIALISMO,,SEG 15:30-17:30 / QUA 15:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0959,ONTOLOGIA,,TER 18:00-22:00,
+,OPTATIVA,ICA,(08/05/2026 - 07/07/2026 - 2º BIMESTRE),ICA3336,FELICIDADE,,TER 13:30-17:30 / QUI 13:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA2573,"RAÇA, ETNIA E SOCIEDADE",Turma 02,QUA 08:00-12:00,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA2573,"RAÇA, ETNIA E SOCIEDADE",Turma 01,QUA 13:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA3440,COMUNICAÇÃO E CULTURA,,QUA 13:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0965,EXISTENCIALISMO,,QUA 18:00-22:00,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA2574,"GÊNERO, SEXUALIDADE E CULTURA",Turma 02A,QUA 13:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA1635,HERMENEUTICA,,QUA 14:00-18:00,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA2007,HISTÓRIA DA ARTE,,QUI 08:00-12:00,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0570,PRODUÇÃO CULTURAL NAS ARTES CÊNICAS,,QUI 13:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0954,FILOSOFIA DA ARTE,,QUI 18:00-22:00,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA0867,HISTÓRIA DA FILOSOFIA MODERNA I,,QUI 18:00-22:00,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA2574,"GÊNERO, SEXUALIDADE E CULTURA",Turma 03A,SEX 13:30-17:30,
+,OPTATIVA,ICA,(02/03/2026 - 07/07/2026),ICA2085,GLOBALIZACAO E CULTURAS CONTEMPORANEAS,,SEX 13:30-17:30,
