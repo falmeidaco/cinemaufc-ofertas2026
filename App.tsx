@@ -5,6 +5,8 @@ import { parseCSV, mapRowToDiscipline } from './data';
 import CourseCard from './components/CourseCard';
 import ScheduleGrid from './components/ScheduleGrid';
 
+const STORAGE_KEY = 'cinema_ufc_selected_2026_1';
+
 const CountdownTimer: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
   const targetDate = useMemo(() => new Date('2026-02-04T00:00:00'), []);
@@ -69,10 +71,25 @@ const App: React.FC = () => {
   const [disciplines, setDisciplines] = useState<Discipline[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [search, setSearch] = useState('');
   const [activeCategory, setActiveCategory] = useState<Category | 'All'>('All');
   const [viewMode, setViewMode] = useState<'cards' | 'calendar'>('cards');
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(() => {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) return new Set(parsed);
+      } catch (e) {
+        console.error("Failed to parse saved selection", e);
+      }
+    }
+    return new Set();
+  });
+
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(selectedIds)));
+  }, [selectedIds]);
 
   useEffect(() => {
     const loadData = async () => {
