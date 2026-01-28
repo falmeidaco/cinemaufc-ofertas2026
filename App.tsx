@@ -5,6 +5,66 @@ import { parseCSV, mapRowToDiscipline } from './data';
 import CourseCard from './components/CourseCard';
 import ScheduleGrid from './components/ScheduleGrid';
 
+const CountdownTimer: React.FC = () => {
+  const [timeLeft, setTimeLeft] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
+  const targetDate = useMemo(() => new Date('2026-02-04T00:00:00'), []);
+
+  useEffect(() => {
+    const calculateTime = () => {
+      const now = new Date();
+      const difference = targetDate.getTime() - now.getTime();
+
+      if (difference <= 0) {
+        setTimeLeft(null);
+        return;
+      }
+
+      setTimeLeft({
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      });
+    };
+
+    calculateTime();
+    const interval = setInterval(calculateTime, 1000);
+    return () => clearInterval(interval);
+  }, [targetDate]);
+
+  if (!timeLeft) return null;
+
+  return (
+    <div className="bg-amber-500 text-slate-950 py-2 px-6 overflow-hidden relative">
+      <div className="max-w-7xl mx-auto flex items-center justify-center gap-4 text-xs font-black uppercase tracking-widest">
+        <span className="opacity-70 hidden sm:inline">Contagem regressiva para matrículas:</span>
+        <div className="flex gap-4">
+          <div className="flex flex-col items-center">
+            <span className="text-sm leading-none">{timeLeft.days}</span>
+            <span className="text-[8px] opacity-60">Dias</span>
+          </div>
+          <span className="opacity-40">:</span>
+          <div className="flex flex-col items-center">
+            <span className="text-sm leading-none">{timeLeft.hours}</span>
+            <span className="text-[8px] opacity-60">Horas</span>
+          </div>
+          <span className="opacity-40">:</span>
+          <div className="flex flex-col items-center">
+            <span className="text-sm leading-none">{timeLeft.minutes}</span>
+            <span className="text-[8px] opacity-60">Mins</span>
+          </div>
+          <span className="opacity-40">:</span>
+          <div className="flex flex-col items-center w-6">
+            <span className="text-sm leading-none">{timeLeft.seconds}</span>
+            <span className="text-[8px] opacity-60">Segs</span>
+          </div>
+        </div>
+        <span className="ml-2 font-serif italic normal-case font-bold hidden md:inline">20 de Fevereiro, 2026</span>
+      </div>
+    </div>
+  );
+};
+
 const App: React.FC = () => {
   const [disciplines, setDisciplines] = useState<Discipline[]>([]);
   const [loading, setLoading] = useState(true);
@@ -93,6 +153,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#0f172a] text-slate-100 flex flex-col">
+      <CountdownTimer />
       {/* Cinematic Header */}
       <header className="relative bg-gradient-to-b from-slate-900 to-slate-950 border-b border-slate-800 pt-12 pb-16 overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
