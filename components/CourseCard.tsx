@@ -61,7 +61,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ discipline, isSelected, onToggl
       </div>
 
       {discipline.description && (
-        <p className="text-slate-500 text-[11px] line-clamp-2 leading-relaxed mb-4 group-hover:text-slate-600 transition-colors italic">
+        <p className="text-slate-500 text-[11px] line-clamp-4 md:line-clamp-none leading-relaxed mb-4 group-hover:text-slate-600 transition-colors italic">
           {discipline.description.replace(/^Ementa:\s*/, '')}
         </p>
       )}

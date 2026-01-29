@@ -6,6 +6,7 @@ import CourseCard from './components/CourseCard';
 import ScheduleGrid from './components/ScheduleGrid';
 
 const STORAGE_KEY = 'cinema_ufc_selected_2026_1';
+const DATA_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vREuTA7iAu4fav337CLhHQTb5AwXsv4ekYwIs3IW98EcmqdUEeUGOF04BhceHCWzEZyFXPUxeOXBPm2/pub?gid=418270669&single=true&output=csv'
 
 const CountdownTimer: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
@@ -97,7 +98,7 @@ const App: React.FC = () => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const response = await fetch('disciplines.csv');
+        const response = await fetch(DATA_URL);
         if (!response.ok) throw new Error('Falha ao carregar arquivo de dados.');
         const csvText = await response.text();
         const rows = parseCSV(csvText);
