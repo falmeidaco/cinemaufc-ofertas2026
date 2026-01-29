@@ -188,14 +188,17 @@ const App: React.FC = () => {
               <span className="text-[#F8381C] font-bold tracking-[0.3em] uppercase text-xs mb-2 block">
                 Cinema e Audiovisual • UFC
               </span>
-              <h1 className="text-5xl md:text-7xl font-serif text-slate-900 mb-4">
-                Ofertas <span className="text-[#0167E3] italic">2026.1</span>
+              <h1 className="text-4xl md:text-7xl font-serif text-slate-900 mb-4">
+                Planejamento Semanal <span className="text-[#0167E3] italic">2026.1</span>
               </h1>
               <p className="text-slate-600 max-w-2xl text-lg font-light leading-relaxed mb-2">
-                Explore a grade curricular do semestre, organize seus horários e organize sua jornada para o semestre. 
+                Explore a oferta de disciplinas do semestre, faça simulações de horários e organize sua jornada para o semestre.
               </p>
-              <p className="text-slate-600 max-w-2xl text-lg font-light leading-relaxed">
-                <strong className="text-[#F8381C]">Mas lembre-se:</strong> esta página serve apenas para você conhecer as disciplinas de 2026. As matrículas são feitas dentro do SIGAA no período indicado pela UFC.
+              <p className="text-slate-600 max-w-2xl text-lg font-light leading-relaxed mb-2">
+                <strong className="text-[#F8381C]">Mas lembre-se:</strong> esta página não tem vínculo oficial com a UFC e foi desenvolvida apenas para você conhecer as disciplinas de 2026. As matrículas são feitas dentro do SIGAA no período indicado pela UFC. Outras disciplinas além das listadas neste site também estarão disponíveis para matrícula. 
+              </p>
+              <p className="text-slate-600 max-w-2xl font-light leading-relaxed">
+                <strong>As informações podem sofrer alterações sem aviso prévio.</strong>
               </p>
             </div>
             
@@ -325,7 +328,7 @@ const App: React.FC = () => {
           </div>
           <p className="text-xs text-center md:text-right text-slate-600">
             Criado com amor pelo Centro Acadêmico do curso Cinema e Audiovisual<br/>
-            As informações podem sofrer alterações sem aviso prévio.
+            Desenvolvido por <a className="text-[#0167E3]" href="https://github.com/falmeidaco" target="_blank">Felipe Almeida</a>
           </p>
         </div>
       </footer>
