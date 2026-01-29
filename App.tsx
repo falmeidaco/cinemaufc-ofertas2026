@@ -9,7 +9,7 @@ const STORAGE_KEY = 'cinema_ufc_selected_2026_1';
 
 const CountdownTimer: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState<{ days: number; hours: number; minutes: number; seconds: number } | null>(null);
-  const targetDate = useMemo(() => new Date('2026-02-20T00:00:00'), []);
+  const targetDate = useMemo(() => new Date('2026-02-04T00:00:00'), []);
 
   useEffect(() => {
     const calculateTime = () => {
@@ -61,7 +61,7 @@ const CountdownTimer: React.FC = () => {
             <span className="text-[8px] opacity-70 uppercase tracking-tighter">Segs</span>
           </div>
         </div>
-        <span className="ml-2 font-serif italic normal-case font-bold hidden md:inline">20 de Fevereiro, 2026</span>
+        <span className="ml-2 font-serif italic normal-case font-bold hidden md:inline">04 a 09 de Fevereiro</span>
       </div>
     </div>
   );
