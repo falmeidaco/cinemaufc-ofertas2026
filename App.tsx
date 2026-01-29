@@ -186,13 +186,16 @@ const App: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div>
               <span className="text-[#F8381C] font-bold tracking-[0.3em] uppercase text-xs mb-2 block">
-                UFC • Instituto de Cultura e Arte
+                Cinema e Audiovisual • UFC
               </span>
               <h1 className="text-5xl md:text-7xl font-serif text-slate-900 mb-4">
-                Cinema <span className="text-[#0167E3] italic">2026.1</span>
+                Ofertas <span className="text-[#0167E3] italic">2026.1</span>
               </h1>
+              <p className="text-slate-600 max-w-2xl text-lg font-light leading-relaxed mb-2">
+                Explore a grade curricular do semestre, organize seus horários e organize sua jornada para o semestre. 
+              </p>
               <p className="text-slate-600 max-w-2xl text-lg font-light leading-relaxed">
-                Explore a grade curricular do semestre, organize seus horários e visualize sua jornada cinematográfica no curso de Cinema e Audiovisual da Universidade Federal do Ceará.
+                <strong className="text-[#F8381C]">Mas lembre-se:</strong> esta página serve apenas para você conhecer as disciplinas de 2026. As matrículas são feitas dentro do SIGAA no período indicado pela UFC.
               </p>
             </div>
             
@@ -321,7 +324,7 @@ const App: React.FC = () => {
             <span className="text-sm font-medium tracking-widest uppercase text-slate-900">Cinema UFC</span>
           </div>
           <p className="text-xs text-center md:text-right text-slate-600">
-            Semestre Letivo 2026.1 • Planejamento Acadêmico<br/>
+            Criado com amor pelo Centro Acadêmico do curso Cinema e Audiovisual<br/>
             As informações podem sofrer alterações sem aviso prévio.
           </p>
         </div>
